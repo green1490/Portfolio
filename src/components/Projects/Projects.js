@@ -20,7 +20,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           
-        <Col md={4} className="project-card">
+        {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={portfolio}
               isBlog={false}
@@ -31,7 +31,7 @@ function Projects() {
               learn about client side routing,ui scalability and how to build a website in a modern approach."
               ghLink="https://github.com/green1490/green1490.github.io"
             />
-        </Col>
+        </Col> */}
 
         <Col md={4} className="project-card">
             <ProjectCard
