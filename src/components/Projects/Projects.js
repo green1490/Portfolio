@@ -30,7 +30,6 @@ function Projects() {
               I also used anime.js for a more fluid ui experince. It was a great experience for me to
               learn about client side routing,ui scalability and how to build a website in a modern approach."
               ghLink="https://github.com/green1490/green1490.github.io"
-              demoLink="https://green1490.github.io/"
             />
         </Col>
 
