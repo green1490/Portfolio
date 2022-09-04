@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import portfolio from "../../Assets/Projects/portfolio.png"
+import handSign from "../../Assets/Projects/hand_sign.png"
 import coinDash from "../../Assets/Projects/coinDash.png"
 import sensor from "../../Assets/Projects/sensor.png"
 
@@ -46,6 +46,20 @@ function Projects() {
               before you are running out from the time.If you hit 
               any obsticle it's an game over."
               ghLink="https://github.com/green1490/Coin-Dash"
+            />
+        </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={handSign}
+              isBlog={false}
+              title="Daveran project"
+              description="This was a group project with a few of my classmates. 
+              My part was in this project to develop the UI. First 
+              we tried to make it with flutter for cross platform support. 
+              However we had a problem with a package for IOS support so we decided to only support
+              android natively. You can use this app to translate a hand sign."
+              ghLink="https://github.com/The-BIg-Three-Tree/daveran-android"
             />
         </Col>
 
