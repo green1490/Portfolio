@@ -69,8 +69,8 @@ function Projects() {
               isBlog={false}
               title="Sensor"
               description="It was a great project to learn the basic of android development. 
-              What you need for an android applaction. How layouts or fragments works. How
-              permissions works. The app have 3 type of sensor that an average phones have. It have
+              What you need for an android application. How layouts or fragments works. How
+              permissions works. The app have 3 type of sensor that an average phones have. It has
               lux meter,can measure distance and has a step counter."
               ghLink="https://github.com/green1490/sensor"
             />
