@@ -43,8 +43,8 @@ function Projects() {
               So i tried to make a little game. For this i choosed
               Godot. I loved how GDScript was a python like language. 
               The game is a tile based game. You pick up all the coins
-              before you are running out from the time.If you hit 
-              any obsticle it's an game over."
+              before you are running out from the time. If you hit 
+              any obsticle it's a game over."
               ghLink="https://github.com/green1490/Coin-Dash"
             />
         </Col>

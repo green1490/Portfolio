@@ -6,7 +6,6 @@ import {
   DiPython,
   DiGit,
   DiRust,
-  DiAndroid,
 } from "react-icons/di";
 
 import {
@@ -30,9 +29,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiAndroid />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiKotlin />
