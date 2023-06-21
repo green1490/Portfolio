@@ -3,8 +3,8 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiLinux,
   SiVisualstudiocode,
-  SiManjaro,
   SiGithub,
+  SiPopos
 } from "react-icons/si";
 
 function Toolstack() {
@@ -17,7 +17,7 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiManjaro />
+        <SiPopos />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />

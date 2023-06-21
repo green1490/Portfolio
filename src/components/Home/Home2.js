@@ -17,24 +17,22 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming when i was
-              in high school. I'm always trying
-              to learn new things.
+                I'm a passionate Sofware Developer. Always 
+                learning new technologies and improving my skillset. 
+                In my free time i always socialize with people. 
               <br />
-              <br />I know classics like
+              <br />
+                I know programming languages like
               <i>
-                <b className="purple"> C++ and Python. </b>
+                <b className="purple"> C#, Python and TypeScript. </b>
               </i>
               <br />
               <br />
-              I'm also trying to keep up with new languages like
-              <i>
-                <b className="purple"> Kotlin and Rust. </b>
-              </i>
+                In addition i'm also trying to keep up with new technologies.
               <br />
               <br />
-              My field of Interest's are big question to me, but hey.
-              That means i'm always trying out new fields and technologies. &nbsp;
+                My field of interest's are big question to me, but hey.
+                That means i'm always experiencing with something new.
               <br />
               <br />
             </p>

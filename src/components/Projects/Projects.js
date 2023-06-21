@@ -6,6 +6,9 @@ import Particle from "../Particle";
 import handSign from "../../Assets/Projects/hand_sign.png"
 import coinDash from "../../Assets/Projects/coinDash.png"
 import sensor from "../../Assets/Projects/sensor.png"
+import expense from "../../Assets/Projects/expense.jpg"
+import note from "../../Assets/Projects/note.png"
+import sysdev from "../../Assets/Projects/sysdev.png"
 
 function Projects() {
   return (
@@ -19,19 +22,6 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          
-        {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={portfolio}
-              isBlog={false}
-              title="My portfolio"
-              description="In this project i learned about
-              front-end. I choosed vue.js for it's better learning curve and
-              I also used anime.js for a more fluid ui experince. It was a great experience for me to
-              learn about client side routing,ui scalability and how to build a website in a modern approach."
-              ghLink="https://github.com/green1490/green1490.github.io"
-            />
-        </Col> */}
 
         <Col md={4} className="project-card">
             <ProjectCard
@@ -73,6 +63,46 @@ function Projects() {
               permissions works. The app have 3 type of sensor that an average phones have. It has
               lux meter,can measure distance and has a step counter."
               ghLink="https://github.com/green1490/sensor"
+            />
+        </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={expense}
+              isBlog={false}
+              title="Expense tracker"
+              description="The app stores a person's purchase history with the given category and expense. In addition it shows you
+              statistics about the purchase histories. It was developed in Kotlin. Furthermore the application uses the
+              Android API for storing and reading the data asynchronically, biometric identification and for storing the
+              app's settings."
+              ghLink="https://github.com/green1490/expense-tracker"
+            />
+        </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={note}
+              isBlog={false}
+              title="Note"
+              description="It is a markdown note taking software that can sync with a database. The UI utilize the Vue.JS framework
+              which communicates with Node.JS for system calls. As for the back-end i used a BaaS solution which is
+              Pocketbase."
+              ghLink="https://github.com/green1490/Note-electron"
+            />
+        </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sysdev}
+              isBlog={false}
+              title="Sysdev for solar panels"
+              description="It covers every process a company needs to do for maintenance. For the front-end we used up the Vue.JS
+              framework which helped us tremendously keeping the code base clean and making the stack more
+              scalable with modularization. The two stack connects each other via HTTP connection. First the user
+              needs authentication and to be authorized for executing the back-end's actions. The authorization uses
+              encrypted cookies hence the user cant execute any other role's action. The back-end uses the asp.net
+              framework as a web API."
+              ghLink="https://github.com/Sysdev-for-solar-panels/front-end"
             />
         </Col>
 
